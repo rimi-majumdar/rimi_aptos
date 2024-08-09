@@ -1,0 +1,15 @@
+[package]
+name = "Aptos1"
+version = "1.0.0"
+authors = []
+
+[addresses]
+Agent = '0x2035f7804678e34e92f10cee312d02b920eebe400aa44aca98faa4a4d090817a'
+[dev-addresses]
+
+[dependencies.AptosFramework]
+git = "https://github.com/aptos-labs/aptos-core.git"
+rev = "devnet"
+subdir = "aptos-move/framework/aptos-framework"
+
+[dev-dependencies]
